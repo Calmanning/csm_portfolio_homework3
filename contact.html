@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Contact Me Page -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+   <!-- bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- internal css -->
+        <link rel="stylesheet" href="style.css">
     <title>Wait, I can Explain.</title>
 </head>
 
-<body class="bg-info text-white meeting">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Who is Calvin?</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-
-      <main class="container my-5">
+<body class="text-white meeting">
+    <!-- Nav bar for the site -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a id="calvin" class="navbar-brand hover_link" href="index.html">Who is Calvin?</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <!-- Portfolio page nav button and link -->
+            <li class="nav-item">
+                <a id="calvin" class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <!-- Contact page nav button and link -->
+            <li class="nav-item">
+                <a id="calvin" class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <!-- main content container -->
+    <main class="container my-5">
         <div class="row-md bg-warning">
             <div class="col-md-8">
                 <header class="row-md-12">
                     <h1 class="about-me border-bottom mx-3 mb-2">Have a question?</h1>
                 </header>
             </div>
+            <!-- Here is where the imput fields begin -->
             <div class="row-md">
                 <div class="col-md-6">
                     <label for="basic-url">Name</label>
                     <div class="input-group mb-3">
-                        <input type="text" placeholder="Name" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        <input type="text" placeholder="Name" class="form-control" id="basic-url"
+                            aria-describedby="basic-addon3">
                     </div>
                 </div>
             </div>
@@ -45,27 +55,56 @@
                 <div class="col-md-6">
                     <label for="basic-url">Email</label>
                     <div class="input-group mb-3">
-                        <input type="text" placeholder="Email address" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                        <input type="text" placeholder="Email address" class="form-control" id="basic-url"
+                            aria-describedby="basic-addon3">
                     </div>
                 </div>
             </div>
             <div class="row-md">
                 <div class="col-md-6">
                     <label for="basic-url">Message</label>
-                    <div class="input-group-prepend" >
-                        <textarea class="form-control mb-3" placeholder="What did you want to talk about?" aria-label="With textarea"></textarea>
+                    <div class="input-group-prepend">
+                        <textarea class="form-control mb-3" placeholder="What did you want to talk about?"
+                            aria-label="With textarea"></textarea>
                     </div>
                 </div>
             </div>
             <div class="row-md">
                 <button type="button" class="mb-4 mx-5 btn btn-primary">Send it</button>
             </div>
-        </main>
+    </main>
+    <!-- sticky footer & social media links -->
+    <footer class="row footer-end d-flex flex-row bg-dark footer-position  align-items-center 
+justify-content-around fixed-bottom">
+        <div>
+            <a href="https://github.com/Calmanning" target="_blank">
+                <img src="images/github_48px.png" alt="Calvin's GitHub page">
+            </a>
+        </div>
+        <div>
+            <a href="https://twitter.com/_castr_" target="_blank">
+                <img src="images/twitter_48px.png" alt="Calvin's Twitter page">
+            </a>
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/calvin-manning-8a450014/" target="_blank">
+                <img src="images/linkedin_48px.png" alt="Calvin's GitHub page">
+            </a>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/_castr_/" target="_blank">
+                <img src="images/instagram_48px.png" alt="Calvin's twitter page">
+            </a>
+        </div>
+    </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
 
-      
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-      
 </body>
+
 </html>
