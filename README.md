@@ -10,3 +10,6 @@ Based on appreences this seems to operate as intended. However
 i wonder if I relyed on Bootstrap's mechanics too much; more CSS elements could have been included in the layout design possibly improving the code's overall segmentation and scanability.
 
 Using classes /id's psuedo classes were used to include/improve some of the portfolio's accessability.
+
+### Note
+The colors in this iteration of the site are really...gross (for lack of a more nuanced term). While color palletes, and well-defined images are important, the primary function (and subsequent display) has been to feature layout and element placement using html & css. What I'm trying to say is, I'm sorrry if all the yellow on the site hurts your eyes. And thanks for understanding!
