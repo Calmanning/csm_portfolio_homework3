@@ -2,25 +2,94 @@
 h1 {
     color:cornflowerblue;
 }
+
+.resume {
+    color:cornflowerblue;
+}
 /*To customize the "body"*/
-.meeting {
-    background-image: url("https://cdn.vox-cdn.com/thumbor/qHTqJ3jJ1pUPu3zzrWWabxmMbYs=/0x0:715x382/1200x800/filters:focal(301x134:415x248)/cdn.vox-cdn.com/uploads/chorus_image/image/61883209/Screen_Shot_2018_10_23_at_4.50.55_PM.0.png");
+#page {
+    background-image: linear-gradient(to bottom right, #c09f80, cornflowerblue);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 /* Use to customize the central (only) container on all pages*/
 .container {
     margin-bottom: 10%;
     margin-top: 10%;
+    height: 70vw;
+    width: 65%;
+}
+.jumbotron {
+    background-image:url("images/seattle_quad.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white
+}
+
+.face{
+max-width:100%;
+height:auto;
+
 }
 /* footer style. Applied to all pages */
-footer {
-    padding: 0 37%;
+.footer-end {
+    padding: 15px 0px;
    
 }
 /* Mouse hover underline action for each nav links. ID applies to more than one element.*/
 #calvin:hover{
     text-decoration: underline;
-    color: darkcyan;
+    color: #dd8f46;
         
 }
 
- 
+.card {
+    margin-bottom: 10%;
+    margin-top: 10%;
+    color: grey;
+}
+@media (max-width: 480px) {
+    #page {
+        background-image: linear-gradient(to bottom right, #c09f80, cornflowerblue);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    /* Use to customize the central (only) container on all pages*/
+    .container {
+        margin-bottom: 10%;
+        margin-top: 10%;
+        height: 70vw;
+        width: 80%;
+    }
+    .jumbotron {
+        background-image:url("images/seattle_quad.png");
+        max-height: max-content;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        max-width:100%;
+
+        color: white
+    }
+    .face{
+        max-width:100%;
+        height:auto;
+        
+
+    }
