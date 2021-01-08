@@ -1,6 +1,7 @@
 # csm_portfolio_homework3
 
 ## The site 
+https://calmanning.github.io/csm_portfolio_homework3/
 A personal portfolio website -- the current iteration of the site is broken up into three pages: a home/"about me" page; a portfolio page highlighting (hypothetical) projects; a contact page wherin the user may write & send messages.
 
 ## Features (or attemps at them)
